@@ -697,4 +697,10 @@ margin: auto;
 .indie_ele{
     justify-content: center;
 }
+#background{
+    background-color:lightblue;
+    object-fit: cover;
+    inset: 0;
+    margin: auto;
+}
 }
