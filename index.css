@@ -708,3 +708,12 @@ margin: auto;
     margin-bottom:10vh;
 }
 }
+.featured_item ~ .featured_item::before{
+    content: "";
+    height: 100%;
+    width: 3px;
+    left: -1vw;
+    background-color: rgb(202, 200, 200);
+    position: absolute;
+
+}
